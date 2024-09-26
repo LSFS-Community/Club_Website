@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LSFS - Let's Start from Scratch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <img src="./assets/Logo.png" alt="LSFS Logo">
+        </div>
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Domain</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+        </nav>
+        <div class="join-now">
+            <a href="#" class="join-btn">Join Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="./assets/Background.png" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <!-- <div class="img-container"> -->
+            <img src="./assets/Logo.png" alt="LOGO" >
+        <!-- </div> -->
+        <div class="about-container">
+            <h1>About LSFS</h1>
+            <p>
+                Welcome to "Let's Start from Scratch" – your gateway to the tech universe! We're not just a coding club; we're a vibrant community of innovators and dreamers. Imagine building amazing projects, from cutting-edge web and app development to mind-blowing AI/ML and IoT creations, all while learning and growing together. Our workshops and sessions are a playground for your ideas, and we spice things up with a daily LeetCode challenge to keep our problem-solving skills razor-sharp. Join us, and let's transform curiosity into mastery, one scratch at a time!
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+<script>
+    const hamMenu =document.querySelector('.ham-menu');
+    const offScreenMenu = document.querySelector('.off-screen-menu')
+    hamMenu.addEventListener('click',()=>{
+        hamMenu.classList.toggle('active');
+        offScreenMenu.classList.toggle('active');
+    })
+</script>
