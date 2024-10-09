@@ -74,7 +74,7 @@ body {
 
 
 
-.logo img {
+/* .logo img {
     width: 200px; 
 }
 ul  li {
@@ -97,7 +97,7 @@ ul li a {
 ul li a:hover {
     color: rgba(40, 40, 167, 0.726);
     font-size: larger;
-}
+} */
 
 .join-now .join-btn {
     background-color: rgba(0, 0, 0, 0.5);
@@ -113,7 +113,7 @@ ul li a:hover {
 }
 
 /* Hero Section */
-.hero {
+/* .hero {
     position: relative;
     height: 100vh; 
     overflow: hidden;
@@ -133,7 +133,7 @@ ul li a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
-}
+} */
 
 /* About Section */
 .about {
@@ -188,7 +188,7 @@ ul li a:hover {
         align-items: center;
     }
     
-    .off-screen-menu{
+    /* .off-screen-menu{
         background-color: rgba(43, 66, 66, 0.491);
         height: 100vh;
         width: 100%;
@@ -201,8 +201,8 @@ ul li a:hover {
         text-align: center;
         font-size: 3rem;
         transition: .3s ease;
-    }
-    .off-screen-menu.active{
+    } */
+    /* .off-screen-menu.active{
         right: 0;  
     }
 
@@ -244,7 +244,7 @@ ul li a:hover {
     .ham-menu.active span:nth-child(3){
         top: 50%;
         transform: translate(-50%,-50%) rotate(-45deg);
-    }
+    } */
 }
 
   
@@ -343,10 +343,10 @@ ul li a:hover {
     flex-wrap: wrap;
   }
   
-  .footer-logo {
+  /* .footer-logo {
     display: flex;
     align-items: center;
-  }
+  } */
   
   .footer-logo img {
     width: 200px;
@@ -392,7 +392,7 @@ ul li a:hover {
     text-decoration: underline;
   }
   
-  footer .support-links {
+  /* footer .support-links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -407,8 +407,8 @@ ul li a:hover {
   footer .support-links a:hover {
     text-decoration: underline;
   }
-  
-  .footer-contact {
+   */
+  /* .footer-contact {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -425,11 +425,12 @@ ul li a:hover {
   
   .footer-contact a:hover {
     text-decoration: underline;
-  }
+  } */
   
   .footer-info {
     color: #ecf0f1;
     margin-top: 20px;
+    font-size: 1.2rem;
   }
   
   /* Media Queries for Responsiveness */
